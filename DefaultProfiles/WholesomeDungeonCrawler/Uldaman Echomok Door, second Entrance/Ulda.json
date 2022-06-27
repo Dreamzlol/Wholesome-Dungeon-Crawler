@@ -1389,18 +1389,18 @@
         "Type": "None",
         "Action": ""
       },
-      "StrictPosition": false,
+      "StrictPosition": true,
       "FindClosest": false,
       "Name": "Click on Alter of The Keeprs",
       "Order": 8,
       "CompleteCondition": {
-        "HasCompleteCondition": false,
-        "ConditionType": 0,
+        "HasCompleteCondition": true,
+        "ConditionType": 4,
         "GameObjectId": 0,
         "InitialFlags": 0,
         "ItemId": 0,
         "CSharpCondition": null,
-        "DeadMobId": 0,
+        "DeadMobId": 4857,
         "MobPositionId": 0,
         "MobId": 0,
         "MobPositionVector": null,
@@ -1506,16 +1506,22 @@
       "Name": "Killin all Stone Keepers",
       "Order": 9,
       "CompleteCondition": {
-        "HasCompleteCondition": false,
-        "ConditionType": 0,
+        "HasCompleteCondition": true,
+        "ConditionType": 4,
         "GameObjectId": 0,
         "InitialFlags": 0,
         "ItemId": 0,
         "CSharpCondition": null,
-        "DeadMobId": 0,
-        "MobPositionId": 0,
+        "DeadMobId": 4857,
+        "MobPositionId": 4857,
         "MobId": 0,
-        "MobPositionVector": null,
+        "MobPositionVector": {
+          "X": 109.357,
+          "Y": 286.115,
+          "Z": -26.5321445,
+          "Type": "None",
+          "Action": ""
+        },
         "LOSPositionVector": null,
         "WaitTime": 0
       }
@@ -1683,20 +1689,6 @@
           "Z": -52.1980438,
           "Type": "None",
           "Action": ""
-        },
-        {
-          "X": 79.4489746,
-          "Y": 260.4699,
-          "Z": -52.2036476,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 88.34532,
-          "Y": 264.8247,
-          "Z": -51.78304,
-          "Type": "None",
-          "Action": ""
         }
       ],
       "Name": "Boss 6 Part 3",
@@ -1718,7 +1710,7 @@
     },
     {
       "$type": "WholesomeDungeonCrawler.Models.InteractWithModel, WholesomeDungeonCrawler",
-      "ObjectId": 133234,
+      "ObjectId": 141869,
       "ExpectedPosition": {
         "X": 70.701,
         "Y": 256.905,
@@ -1735,384 +1727,6 @@
         "ConditionType": 2,
         "GameObjectId": 141869,
         "InitialFlags": 32,
-        "ItemId": 0,
-        "CSharpCondition": null,
-        "DeadMobId": 0,
-        "MobPositionId": 0,
-        "MobId": 0,
-        "MobPositionVector": null,
-        "LOSPositionVector": null,
-        "WaitTime": 0
-      }
-    },
-    {
-      "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
-      "Path": [
-        {
-          "X": 95.18642,
-          "Y": 268.173462,
-          "Z": -52.1487045,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": 0.0,
-          "Y": 0.0,
-          "Z": 0.0,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -6289.911,
-          "Y": -3493.108,
-          "Z": 251.482773,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -6279.83154,
-          "Y": -3488.00439,
-          "Z": 252.113388,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -6271.9873,
-          "Y": -3484.04932,
-          "Z": 252.038818,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -6258.87646,
-          "Y": -3477.7207,
-          "Z": 249.551132,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -6250.85254,
-          "Y": -3471.8645,
-          "Z": 245.363556,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -6243.50244,
-          "Y": -3465.2666,
-          "Z": 241.334686,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -6234.28467,
-          "Y": -3453.955,
-          "Z": 238.658569,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -6224.935,
-          "Y": -3443.54,
-          "Z": 237.901749,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -6214.554,
-          "Y": -3433.30444,
-          "Z": 238.169189,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -6207.46826,
-          "Y": -3426.3335,
-          "Z": 238.637314,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -6197.513,
-          "Y": -3416.53979,
-          "Z": 239.166138,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -6187.36035,
-          "Y": -3406.13379,
-          "Z": 239.418839,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -6176.464,
-          "Y": -3396.42383,
-          "Z": 241.400131,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -6166.95,
-          "Y": -3386.9873,
-          "Z": 243.847626,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -6156.79,
-          "Y": -3376.50952,
-          "Z": 242.876572,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -6147.044,
-          "Y": -3366.45874,
-          "Z": 245.5539,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -6137.25928,
-          "Y": -3355.6438,
-          "Z": 248.850311,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -6129.9873,
-          "Y": -3343.1626,
-          "Z": 251.183426,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -6123.35742,
-          "Y": -3330.1604,
-          "Z": 252.993835,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -6117.56152,
-          "Y": -3317.45459,
-          "Z": 255.718292,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -6111.54,
-          "Y": -3304.19922,
-          "Z": 256.802338,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -6105.61426,
-          "Y": -3290.89185,
-          "Z": 257.283936,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -6104.7666,
-          "Y": -3280.45459,
-          "Z": 256.7732,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -6103.96,
-          "Y": -3265.882,
-          "Z": 257.813934,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -6104.05664,
-          "Y": -3252.50732,
-          "Z": 259.225342,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -6108.40869,
-          "Y": -3239.202,
-          "Z": 260.187164,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -6107.029,
-          "Y": -3225.46631,
-          "Z": 259.788177,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -6102.356,
-          "Y": -3211.68286,
-          "Z": 256.995026,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -6096.55762,
-          "Y": -3198.289,
-          "Z": 255.494522,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -6093.76465,
-          "Y": -3184.82813,
-          "Z": 256.325745,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -6093.781,
-          "Y": -3176.63965,
-          "Z": 255.9465,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -6090.97949,
-          "Y": -3168.546,
-          "Z": 255.161819,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -6080.901,
-          "Y": -3161.84326,
-          "Z": 254.520172,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -6072.79541,
-          "Y": -3157.203,
-          "Z": 254.359634,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -6066.503,
-          "Y": -3152.122,
-          "Z": 253.980164,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -6068.78662,
-          "Y": -3140.10669,
-          "Z": 254.5258,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -6077.328,
-          "Y": -3133.04541,
-          "Z": 253.770767,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -6085.4126,
-          "Y": -3128.43115,
-          "Z": 253.592941,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -6088.00537,
-          "Y": -3119.80737,
-          "Z": 251.935135,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -6088.76953,
-          "Y": -3111.12817,
-          "Z": 251.269852,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -6095.71973,
-          "Y": -3102.51733,
-          "Z": 251.176834,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -6102.529,
-          "Y": -3094.81,
-          "Z": 251.795273,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -6106.159,
-          "Y": -3085.558,
-          "Z": 251.712631,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -6108.33838,
-          "Y": -3076.498,
-          "Z": 251.419189,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -6111.564,
-          "Y": -3067.72925,
-          "Z": 248.613144,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -6109.68457,
-          "Y": -3058.58447,
-          "Z": 246.774353,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -6099.51855,
-          "Y": -3053.13013,
-          "Z": 247.294571,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -6092.34131,
-          "Y": -3049.286,
-          "Z": 248.866974,
-          "Type": "None",
-          "Action": ""
-        },
-        {
-          "X": -6087.852,
-          "Y": -3116.259,
-          "Z": 251.607651,
-          "Type": "None",
-          "Action": ""
-        }
-      ],
-      "Name": "Boss 6 Part 4",
-      "Order": 12,
-      "CompleteCondition": {
-        "HasCompleteCondition": false,
-        "ConditionType": 0,
-        "GameObjectId": 0,
-        "InitialFlags": 0,
         "ItemId": 0,
         "CSharpCondition": null,
         "DeadMobId": 0,
@@ -2243,6 +1857,62 @@
       "FindClosest": false,
       "Name": "Loot Chest",
       "Order": 15,
+      "CompleteCondition": {
+        "HasCompleteCondition": false,
+        "ConditionType": 0,
+        "GameObjectId": 0,
+        "InitialFlags": 0,
+        "ItemId": 0,
+        "CSharpCondition": null,
+        "DeadMobId": 0,
+        "MobPositionId": 0,
+        "MobId": 0,
+        "MobPositionVector": null,
+        "LOSPositionVector": null,
+        "WaitTime": 0
+      }
+    },
+    {
+      "$type": "WholesomeDungeonCrawler.Models.MoveAlongPathModel, WholesomeDungeonCrawler",
+      "Path": [
+        {
+          "X": 66.12198,
+          "Y": 254.124176,
+          "Z": -52.1997871,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 74.98643,
+          "Y": 256.756378,
+          "Z": -52.2033844,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 82.88465,
+          "Y": 259.710968,
+          "Z": -52.2033844,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 90.98166,
+          "Y": 262.971558,
+          "Z": -51.7830544,
+          "Type": "None",
+          "Action": ""
+        },
+        {
+          "X": 98.565834,
+          "Y": 266.2534,
+          "Z": -52.1486969,
+          "Type": "None",
+          "Action": ""
+        }
+      ],
+      "Name": "New Boss 6 Path 4",
+      "Order": 16,
       "CompleteCondition": {
         "HasCompleteCondition": false,
         "ConditionType": 0,
